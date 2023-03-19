@@ -81,7 +81,25 @@
   }
   html {
     box-sizing: border-box;
-  }
+}
   *, *::before, *::after{
     box-sizing: inherit;
   }
+  body {
+    max-width: 1440px; /*максимальная ширина 1440*/
+    margin: 0 auto; /*выравниваю по центру*/
+    font-family: 'Red Hat Text';
+    font-style: normal; /*стилизация шрифта*/
+    font-size: 16px; /*размер шрифта*/
+    line-height: 1.2; /*отступ между строками*/
+    font-weight: normal; /*толщина шрифта*/
+    color: #0D606F;
+  }
+
+  .wrapper {
+    max-width: 1120px; /*максимальная ширина обертки 1120*/
+    margin: 0 auto; /*выравниваю по центру*/
+}
+.header {
+    background-color: blueviolet;
+}
